@@ -190,6 +190,7 @@ public class CalculateSales {
 			System.out.println("予期せぬエラーが発生しました");
 			return false;
 		}
+
 		BufferedReader br = new BufferedReader(fr);
 
 		try{
