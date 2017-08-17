@@ -195,7 +195,6 @@ public class CalculateSales {
 
 		try{
 			String s;
-
 			while((s = br.readLine()) != null){
 
 				if(s.split(",",0).length == 2){
@@ -232,12 +231,9 @@ public class CalculateSales {
 			}
 		}
 		return true;
-
 	}
 
-
 	public static boolean output(HashMap<String,Long> saleMap,HashMap<String,String> definition,String filePath,String outPath){
-
 		List<Map.Entry<String,Long>> entries = new ArrayList<Map.Entry<String,Long>>(saleMap.entrySet());
 		Collections.sort(entries, new Comparator<Map.Entry<String,Long>>() {
 			@Override
